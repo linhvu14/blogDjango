@@ -172,3 +172,7 @@ img:hover {
     width: 100%;
     height: 1000px;
 }
+
+.first-nav>li {
+    text-decoration: none;
+}
