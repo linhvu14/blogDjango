@@ -5,5 +5,6 @@ from app.views import newView
 from . import views
 
 urlpatterns = [
-    path('index/', views.newView, name='home')
+    path('index/', views.newView, name='home'),
+    path('index/login', views.loginView, name='login')
 ]
