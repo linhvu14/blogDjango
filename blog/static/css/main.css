@@ -275,4 +275,47 @@ a {
 .tags-button:hover,
 .more-button:hover {
     background-color: #BDBDBD;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.title-sd-nav {
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.sidebar-nav-tags {
+    height: 300px;
+    overflow: auto;
+    margin-top: 12px;
+}
+
+.nav-element {
+    padding: 12px;
+}
+
+.button-action {
+    float: right;
+    padding: 0px 12px;
+    background-color: blue;
+    color: #fff;
+    display: none;
+    border-radius: 8px;
+}
+
+.nav-element:hover {
+    background-color: #BDBDBD;
+    border-radius: 8px;
+}
+
+.nav-element:hover .button-action {
+    display: block;
+    color: #fff;
+}
+
+.button-action:hover {
+    opacity: 0.7;
+    padding: 0px 25px;
+    transition: 0.8s;
+    background-color: #F27B7B;
 }
