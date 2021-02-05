@@ -9,6 +9,11 @@
                 <h3 class="heading">Welcome to DEV Community</h3>
                 <div class="spacer"></div>
                 <div class="form-group">
+                    <label for="fullname" class="form-label">User name</label>
+                    <input id="fullname" name="fullname" type="text" class="form-control" required>
+                    <span class="form-message"></span>
+                </div>
+                <div class="form-group">
                     <label for="email" class="form-label">Email</label>
                     <input id="email" name="email" type="email" class="form-control" required>
                     <span class="form-message"></span>
@@ -18,7 +23,12 @@
                     <input id="password" name="password" type="password" class="form-control" required>
                     <span class="form-message"></span>
                 </div>
-                <input type="submit" class="form-submit" value="Continue"></input>
+                <div class="form-group">
+                    <label for="password_confirmation" class="form-label">Confirm password</label>
+                    <input id="password_confirmation" name="password_confirmation" type="password" class="form-control" required>
+                    <span class="form-message"></span>
+                </div>
+                <input type="submit" class="form-submit" value="Register"></input>
             </form>
         </div>
     </div>

@@ -23,8 +23,8 @@ body{
     border: 1px solid #ddd
 }
 
-.logo {
-    margin-left: 50px;
+.img-logo {
+    margin-left: 285px;
     border-radius: 6px;
     cursor: pointer;
 }
@@ -44,7 +44,7 @@ img:hover {
 }
 
 .form-login {
-    right: 0;
+    right: 285px;
     position: absolute;
     margin-right: 34.500px;
 }
@@ -93,6 +93,7 @@ img:hover {
 }
 
 #main-nav-left {
+    margin-left: 235px;
     width: 240px;
     height: 297px;
     border: 1px solid #ddd;
@@ -217,8 +218,15 @@ a {
     box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
 }
 
-.form-register{
+.register-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.register-content__form-register{
     width: 600px;
+    margin-top: 55px;
 }
 
 .form-label {

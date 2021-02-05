@@ -14,15 +14,15 @@
 <body>
     <div id="wrapper">
         <div id="header">
-            <div>
-                <img class="logo" style="width: 60px;height: 40px; " src="{% static 'img/download.png' %}">
+            <div class="logo">
+                <a href="{% url 'home' %}"><img class="img-logo" style="width: 60px;height: 40px; " src="{% static 'img/download.png' %}"></a>
             </div>
-            <div>
+            <div class="search">
                 <input class="form-search" style="width: 460px ;height:40px ;;" type="search" placeholder="    Search...">
             </div>
             <div class="form-login">
-                <a href="" class="login">Log in</a>
-                <a href="{% url 'login' %}" class="create-account">Create account</a>
+                <a href="{% url 'login' %}" class="login">Log in</a>
+                <a href="{% url 'register' %}" class="create-account">Create account</a>
             </div>
         </div>
     </div>

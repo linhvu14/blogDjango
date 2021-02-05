@@ -1,8 +1,12 @@
 from django.shortcuts import render
 
 
-def newView(request):
+def indexView(request):
     template = 'index.html'
+    return render(request, template_name=template)
+
+def registerView(request):
+    template = 'register.html'
     return render(request, template_name=template)
 
 def loginView(request):
