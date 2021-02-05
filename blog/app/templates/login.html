@@ -1,6 +1,9 @@
-{% extends 'index.html' %} {% load static %} {% block title %} {% endblock %} {% block css %} {% endblock %} {% block content %}
-<div class="body-content">
-    <div class="body-content__form">
+{% extends 'base.html' %} 
+{% load static %} 
+{% block title %} {% endblock %} 
+{% block css %} {% endblock %} 
+{% block content %}
+    <div class="form-register">
         <form action="" method="POST" class="form" id="form-1">
             <h3 class="heading">Thành viên đăng ký</h3>
 
@@ -34,9 +37,4 @@
             <button class="form-submit">Đăng ký</button>
         </form>
     </div>
-
-
-</div>
-
-
 {% endblock %}
