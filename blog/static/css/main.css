@@ -1,329 +1,358 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
-
-body{
-    background-color: #eaeaea;
-}
-
-#header {
-    background-color: #fff;
-    height: 56px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    border: 1px solid #ddd
-}
-
-.img-logo {
-    margin-left: 285px;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-img:hover {
-    opacity: 0.8;
-}
-
-.form-search {
-    margin-left: 16px;
-    border: 1px solid #ddd;
-    border-radius: 6px;
-}
-
-.form-search:hover {
-    border: 1px solid #BDBDBD;
-}
-
-.form-login {
-    right: 285px;
-    position: absolute;
-    margin-right: 34.500px;
-}
-
-.login,
-.create-account {
-    font-weight: bold;
-}
-
-.login:hover {
-    opacity: 0.9;
-}
-
-.form-login>a {
-    text-decoration: none;
-}
-
-.login {
-    padding: 12px 16px;
-    margin-right: 8px;
-}
-
-.create-account {
-    padding: 12px 16px;
-    margin-right: 8px;
-    background-color: #3A5FCD;
-    border-radius: 7px;
-    color: #fff;
-}
-
-.create-account:hover {
-    background-color: #00008B;
-    color: #fff;
-}
-
-.login:hover {
-    background-color: #E6E6E6;
-    border-radius: 8px;
-}
-
-#main-body {
-    margin-top: 56px;
-    padding-top: 16px;
-    padding-left: 50px;
-    display: flex;
-}
-
-#main-nav-left {
-    margin-left: 235px;
-    width: 240px;
-    height: 297px;
-    border: 1px solid #ddd;
-    /* text-align: justify; */
-}
-
-.title-login {
-    padding: 16px;
-    background-color: #fff;
-    border-radius: 8px;
-}
-
-.sub-title {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.sub-title>a {
-    text-decoration: none;
-}
-
-.text-title-login {
-    color: #757575;
-}
-
-.sub-login>li>a {
-    text-decoration: none;
-}
-
-.sub-login>li {
-    list-style-type: none;
-}
-
-.sub-login {
-    display: inline-block;
-    margin-top: 8px;
-    text-align: center;
-    font-weight: bolder;
-}
-
-.sub-login>li:first-child {
-    padding: 13px 9px;
-    background: #3A5FCD;
-    border-radius: 8px;
-}
-
-.sub-login>li:last-child {
-    padding: 13px 9px;
-    border-radius: 8px;
-}
-
-.sub-login {
-    margin-bottom: 0px;
-    padding-right: 16px;
-    padding-left: 16px;
-}
-
-.sub-create-account {
-    margin-bottom: 7px;
-    cursor: pointer;
-}
-
-.sub-create-account>a {
-    color: #fff;
-}
-
-.sub-create-account:hover {
-    cursor: pointer;
-    background-color: #00008B !important;
-}
-
-.sub-login2:hover {
-    background-color: #E6E6E6;
-    cursor: pointer;
-}
-
-.sub-login2>a {
-    color: blue;
-}
-
-#main-body {
-    background-color: #E8E8E8;
-    width: 100%;
-    height: 1000px;
-}
-
-a {
-    text-decoration: none;
-}
-
-.first-nav ul li {
-    list-style: none;
-}
-
-/* .body-content {
+                                    * {
+                                        padding: 0;
+                                        margin: 0;
+                                        box-sizing: border-box;
+                                        font-family: Arial, Helvetica, sans-serif;
+                                    }
+                                    
+                                    body {
+                                        background-color: #eaeaea;
+                                    }
+                                    
+                                    #header {
+                                        background-color: #fff;
+                                        height: 56px;
+                                        display: flex;
+                                        align-items: center;
+                                        position: relative;
+                                        position: fixed;
+                                        top: 0;
+                                        left: 0;
+                                        right: 0;
+                                        border: 1px solid #ddd
+                                    }
+                                    
+                                    .img-logo {
+                                        margin-left: 285px;
+                                        border-radius: 6px;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    img:hover {
+                                        opacity: 0.8;
+                                    }
+                                    
+                                    .form-search {
+                                        margin-left: 16px;
+                                        border: 1px solid #ddd;
+                                        border-radius: 6px;
+                                    }
+                                    
+                                    .form-search:hover {
+                                        border: 1px solid #BDBDBD;
+                                    }
+                                    
+                                    .form-login {
+                                        right: 285px;
+                                        position: absolute;
+                                        margin-right: 34.500px;
+                                    }
+                                    
+                                    .login,
+                                    .create-account {
+                                        font-weight: bold;
+                                    }
+                                    
+                                    .login:hover {
+                                        opacity: 0.9;
+                                    }
+                                    
+                                    .form-login>a {
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .login {
+                                        padding: 12px 16px;
+                                        margin-right: 8px;
+                                    }
+                                    
+                                    .create-account {
+                                        padding: 12px 16px;
+                                        margin-right: 8px;
+                                        background-color: #3A5FCD;
+                                        border-radius: 7px;
+                                        color: #fff;
+                                    }
+                                    
+                                    .create-account:hover {
+                                        background-color: #00008B;
+                                        color: #fff;
+                                    }
+                                    
+                                    .login:hover {
+                                        background-color: #E6E6E6;
+                                        border-radius: 8px;
+                                    }
+                                    
+                                    #main-body {
+                                        margin-top: 56px;
+                                        padding-top: 16px;
+                                        padding-left: 50px;
+                                        display: flex;
+                                    }
+                                    
+                                    #main-nav-left {
+                                        margin-left: 235px;
+                                        width: 240px;
+                                        height: 297px;
+                                        border: 1px solid #ddd;
+                                        /* text-align: justify; */
+                                    }
+                                    
+                                    .title-login {
+                                        padding: 16px;
+                                        background-color: #fff;
+                                        border-radius: 8px;
+                                    }
+                                    
+                                    .sub-title {
+                                        font-size: 18px;
+                                        font-weight: bold;
+                                    }
+                                    
+                                    .sub-title>a {
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .text-title-login {
+                                        color: #757575;
+                                    }
+                                    
+                                    .sub-login>li>a {
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .sub-login>li {
+                                        list-style-type: none;
+                                    }
+                                    
+                                    .sub-login {
+                                        display: inline-block;
+                                        margin-top: 8px;
+                                        text-align: center;
+                                        font-weight: bolder;
+                                    }
+                                    
+                                    .sub-login>li:first-child {
+                                        padding: 13px 9px;
+                                        background: #3A5FCD;
+                                        border-radius: 8px;
+                                    }
+                                    
+                                    .sub-login>li:last-child {
+                                        padding: 13px 9px;
+                                        border-radius: 8px;
+                                    }
+                                    
+                                    .sub-login {
+                                        margin-bottom: 0px;
+                                        padding-right: 16px;
+                                        padding-left: 16px;
+                                    }
+                                    
+                                    .sub-create-account {
+                                        margin-bottom: 7px;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    .sub-create-account>a {
+                                        color: #fff;
+                                    }
+                                    
+                                    .sub-create-account:hover {
+                                        cursor: pointer;
+                                        background-color: #00008B !important;
+                                    }
+                                    
+                                    .sub-login2:hover {
+                                        background-color: #E6E6E6;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    .sub-login2>a {
+                                        color: blue;
+                                    }
+                                    
+                                    #main-body {
+                                        background-color: #E8E8E8;
+                                        width: 100%;
+                                        height: 1000px;
+                                    }
+                                    
+                                    a {
+                                        text-decoration: none;
+                                    }
+                                    
+                                    .first-nav ul li {
+                                        list-style: none;
+                                    }
+                                    /* .body-content {
     width: 122%;
 } */
-
-.form-group {
-    display: flex;
-    margin-bottom: 16px;
-    flex-direction: column;
-}
-
-/* .body-content {
+                                    
+                                    .form-group {
+                                        display: flex;
+                                        margin-bottom: 16px;
+                                        flex-direction: column;
+                                    }
+                                    /* .body-content {
     background: #f1f1f1;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     margin: 0 50%;
 } */
-
-.form {
-    /* width: 360px; */
-    min-height: 100px;
-    padding: 32px 24px;
-    text-align: center;
-    background: #fff;
-    border-radius: 2px;
-    margin: 24px;
-    align-self: center;
-    box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
-}
-
-.register-content{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.register-content__form-register{
-    width: 600px;
-    margin-top: 55px;
-}
-
-.form-label {
-    text-align: start;
-    margin-bottom: 2px;
-}
-
-.form-submit {
-    outline: none;
-    background-color: #1dbfaf;
-    margin-top: 12px;
-    padding: 12px 16px;
-    font-weight: 600;
-    color: #fff;
-    border: none;
-    width: 100%;
-    font-size: 14px;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.form-submit:hover {
-    background-color: #1ac7b6;
-}
-
-.first-nav {
-    margin-top: 12px;
-    line-height: 3rem;
-}
-
-.signup-button>a {
-    font-weight: 600;
-}
-
-.first-nav>.home-button>a,
-.first-nav>.signup-button>a,
-.first-nav>.listings-button>a,
-.first-nav>.podcasts-button>a,
-.first-nav>.videos-button>a,
-.first-nav>.tags-button>a {
-    color: #000;
-}
-
-.first-nav>.more-button>a {
-    color: #757575;
-    padding-left: 30px;
-}
-
-.home-button:hover,
-.signup-button:hover,
-.listings-button:hover,
-.podcasts-button:hover,
-.videos-button:hover,
-.tags-button:hover,
-.more-button:hover {
-    background-color: #BDBDBD;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.title-sd-nav {
-    font-size: 18px;
-    margin-top: 12px;
-}
-
-.sidebar-nav-tags {
-    height: 300px;
-    overflow: auto;
-    margin-top: 12px;
-}
-
-.nav-element {
-    padding: 12px;
-}
-
-.button-action {
-    float: right;
-    padding: 0px 12px;
-    background-color: blue;
-    color: #fff;
-    display: none;
-    border-radius: 8px;
-}
-
-.nav-element:hover {
-    background-color: #BDBDBD;
-    border-radius: 8px;
-}
-
-.nav-element:hover .button-action {
-    display: block;
-    color: #fff;
-}
-
-.button-action:hover {
-    opacity: 0.7;
-    padding: 0px 25px;
-    transition: 0.8s;
-    background-color: #F27B7B;
-}
+                                    
+                                    .form {
+                                        /* width: 360px; */
+                                        min-height: 100px;
+                                        padding: 32px 24px;
+                                        text-align: center;
+                                        background: #fff;
+                                        border-radius: 2px;
+                                        margin: 24px;
+                                        align-self: center;
+                                        box-shadow: 0 2px 5px 0 rgba(51, 62, 73, 0.1);
+                                    }
+                                    
+                                    .register-content {
+                                        width: 100%;
+                                        display: flex;
+                                        justify-content: center;
+                                    }
+                                    /*                                 
+                                .register-content__form-register {
+    
+                                     width: 600px;
+                                        margin-top: 55px;
+                                    } */
+                                    
+                                    .form-label {
+                                        text-align: start;
+                                        margin-bottom: 2px;
+                                    }
+                                    
+                                    .form-submit {
+                                        outline: none;
+                                        background-color: #1dbfaf;
+                                        margin-top: 12px;
+                                        padding: 12px 16px;
+                                        font-weight: 600;
+                                        color: #fff;
+                                        border: none;
+                                        width: 100%;
+                                        font-size: 14px;
+                                        border-radius: 8px;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    .form-submit:hover {
+                                        background-color: #1ac7b6;
+                                    }
+                                    
+                                    .first-nav {
+                                        margin-top: 12px;
+                                        line-height: 3rem;
+                                    }
+                                    
+                                    .signup-button>a {
+                                        font-weight: 600;
+                                    }
+                                    
+                                    .first-nav>.home-button>a,
+                                    .first-nav>.signup-button>a,
+                                    .first-nav>.listings-button>a,
+                                    .first-nav>.podcasts-button>a,
+                                    .first-nav>.videos-button>a,
+                                    .first-nav>.tags-button>a {
+                                        color: #000;
+                                    }
+                                    
+                                    .first-nav>.more-button>a {
+                                        color: #757575;
+                                        padding-left: 30px;
+                                    }
+                                    
+                                    .home-button:hover,
+                                    .signup-button:hover,
+                                    .listings-button:hover,
+                                    .podcasts-button:hover,
+                                    .videos-button:hover,
+                                    .tags-button:hover,
+                                    .more-button:hover {
+                                        background-color: #BDBDBD;
+                                        border-radius: 8px;
+                                        cursor: pointer;
+                                    }
+                                    
+                                    .title-sd-nav {
+                                        font-size: 18px;
+                                        margin-top: 12px;
+                                    }
+                                    
+                                    .sidebar-nav-tags {
+                                        height: 300px;
+                                        overflow: auto;
+                                        margin-top: 12px;
+                                    }
+                                    
+                                    .nav-element {
+                                        padding: 12px;
+                                    }
+                                    
+                                    .button-action {
+                                        float: right;
+                                        padding: 0px 12px;
+                                        background-color: blue;
+                                        color: #fff;
+                                        display: none;
+                                        border-radius: 8px;
+                                    }
+                                    
+                                    .nav-element:hover {
+                                        background-color: #BDBDBD;
+                                        border-radius: 8px;
+                                    }
+                                    
+                                    .nav-element:hover .button-action {
+                                        display: block;
+                                        color: #fff;
+                                    }
+                                    
+                                    .button-action:hover {
+                                        opacity: 0.7;
+                                        padding: 0px 25px;
+                                        transition: 0.8s;
+                                        background-color: #F27B7B;
+                                    }
+                                    
+                                    .main-body-mid {
+                                        width: 50%;
+                                        margin: 0 16px;
+                                    }
+                                    
+                                    .control-nav-mid {
+                                        float: right;
+                                    }
+                                    
+                                    .name-title {
+                                        display: inline-block;
+                                        font-size: 20px;
+                                        font-weight: 600;
+                                    }
+                                    
+                                    .element-nav-mid {
+                                        padding: 8px;
+                                        margin: 0 4px;
+                                        color: #000;
+                                    }
+                                    
+                                    .element-nav-mid:hover {
+                                        background-color: #BDBDBD;
+                                        border-radius: 8px;
+                                        color: blue;
+                                    }
+                                    
+                                    .header-nav-mid {
+                                        margin-bottom: 12px;
+                                    }
